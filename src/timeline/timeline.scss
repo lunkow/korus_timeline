@@ -1,0 +1,19 @@
+
+// Variables:
+$colorGray: #E5E5E5;
+$colorGreen: #50A230;
+$colorOrange: #F2933F;
+
+
+
+@import "__dot/timeline__dot";
+@import "__dot/_start-dot/timeline__dot_start-dot";
+@import "__dot/_finish-dot/timeline__dot_finish-dot";
+@import "__line/timeline__line";
+@import "__label/timeline__label";
+@import "__step/timeline__step";
+@import "__step/_in-the-process/timeline__step_in-the-process";
+@import "__step/_finished/timeline__step_finished";
+@import "__item/_type-dots/timeline__item_type-dots";
+@import "__item/_label_bottom/timeline__item_label_bottom";
+@import "__item/timeline__item";

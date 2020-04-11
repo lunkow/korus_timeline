@@ -1,0 +1,13 @@
+.timeline__dot{
+  display: inline-block;
+  width: 10px;
+  min-width: 10px;
+  height: 10px;
+  min-height: 10px;
+  margin: 0 2px;
+  border: 2px solid $colorGray;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-color: transparent;
+  transition: all 0.2s linear;
+}

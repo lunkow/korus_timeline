@@ -1,0 +1,23 @@
+.timeline__step_in-the-process{
+
+  .timeline__dot_start-dot{
+    border-color: $colorOrange;
+    background-color: $colorOrange;
+  }
+
+  .timeline__line{
+    background-color: $colorOrange;
+  }
+
+}
+
+
+.timeline__item_type-dots{
+
+  .timeline__step_in-the-process{
+
+    .timeline__line{
+      background-color: $colorGray;
+    }
+  }
+}

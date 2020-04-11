@@ -1,0 +1,32 @@
+.timeline__item_type-dots{
+
+  .timeline__label{
+    left: 7px;
+  }
+
+  .timeline__step:first-child{
+    .timeline__label{
+      left: 0;
+      transform: translateX(7px);
+    }
+  }
+
+
+  .timeline__step:last-child{
+    flex-grow: 0;
+
+    .timeline__line{
+      display: none;
+    }
+    .timeline__label{
+      left: 7px;
+      transform: translateX(-100%);
+    }
+
+    .timeline__dot_finish-dot{
+      display: none;
+    }
+
+  }
+
+}

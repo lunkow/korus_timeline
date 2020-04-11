@@ -1,0 +1,11 @@
+.timeline__dot_finish-dot{
+  display: none;
+}
+
+
+.timeline__step:last-child{
+
+  .timeline__dot_finish-dot{
+    display: block;
+  }
+}
